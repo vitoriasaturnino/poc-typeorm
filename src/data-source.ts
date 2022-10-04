@@ -2,11 +2,11 @@ import { DataSource } from "typeorm";
 
 export const AppDataSource = new DataSource({
     type: "postgres",
-    host: "localhost",
+    host: "babar.db.elephantsql.com",
     port: 5432,
-    username: "postgres",
-    password: "postgres",
-    database: "db_poc",
+    username: "dlcfpzfp",
+    password: "nbCS0Wrxv08YNrwwaM7b2vezxselrzRe",
+    database: "dlcfpzfp",
     synchronize: true,
     logging: true,
     entities: [],
